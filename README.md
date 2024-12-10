@@ -28,3 +28,6 @@ https://www.turbosquid.com/3d-models/low-poly-hand-painted-rat-1194177
 
 Ground textures from: 
 https://arexxuru.itch.io/pixel-floor-texture-pack-ground-tile
+
+Low poly nature pack:
+https://www.turbosquid.com/3d-models/low-poly-art-nature-pack-lite-2235772
