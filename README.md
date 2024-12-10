@@ -23,3 +23,8 @@ https://assetstore.unity.com/packages/3d/characters/humanoids/rpg-tiny-hero-duo-
 Skybox:
 https://assetstore.unity.com/packages/2d/textures-materials/sky/free-stylized-skybox-212257
 
+Rat model and texture from:
+https://www.turbosquid.com/3d-models/low-poly-hand-painted-rat-1194177
+
+Ground textures from: 
+https://arexxuru.itch.io/pixel-floor-texture-pack-ground-tile
