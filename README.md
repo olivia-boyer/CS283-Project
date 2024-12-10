@@ -20,3 +20,6 @@ https://assetstore.unity.com/packages/3d/characters/humanoids/fantasy/battle-wiz
 Sword-fighter:
 https://assetstore.unity.com/packages/3d/characters/humanoids/rpg-tiny-hero-duo-pbr-polyart-225148
 
+Skybox:
+https://assetstore.unity.com/packages/2d/textures-materials/sky/free-stylized-skybox-212257
+
