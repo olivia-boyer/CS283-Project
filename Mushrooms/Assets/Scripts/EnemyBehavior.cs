@@ -54,6 +54,10 @@ public class EnemyBehavior : MonoBehaviour
         isAtk.OpenBranch(attack);
         isAtk.OpenBranch(follow);
         loc = true;
+        if (!patrolling)
+        {
+            agent.SetDestination(transform.position);
+        }
         
 
     }
@@ -99,7 +103,7 @@ public class EnemyBehavior : MonoBehaviour
         } else
         {
             Debug.Log("wandering");
-            NavMeshAgent agent = GetComponent<NavMeshAgent>();
+            //NavMeshAgent agent = GetComponent<NavMeshAgent>();
             Vector3 dest;
             if (agent.remainingDistance < 1.0f)
             {

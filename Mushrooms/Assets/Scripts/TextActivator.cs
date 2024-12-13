@@ -11,6 +11,7 @@ public class TextActivator : MonoBehaviour
         if (other.tag == "Player")
         {
             StartCoroutine(ShowText());
+            GetComponent<SphereCollider>().enabled = false;
         }
     }
 
