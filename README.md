@@ -1,5 +1,10 @@
 # CS283-Project
 
+How To Play:
+Use WASD or the arrow keys to move around the overworld. You can also press space to jump though there
+is no reason to. When you encounter an enemy, combat begins. you can choose your actions by clicking the 
+buttons with your cursor. Walk into the red mushroom to collect in and complete the game.
+
 Asset Credits:
 
 Low Poly Nature Essentials:
