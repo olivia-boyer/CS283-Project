@@ -8,7 +8,7 @@ public class TextActivator : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "player")
+        if (other.tag == "Player")
         {
             StartCoroutine(ShowText());
         }
