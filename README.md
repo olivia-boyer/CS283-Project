@@ -9,11 +9,15 @@ When you open the game in unity it's going to give you a bunch of compiler error
 got messed up (my laptop refused to acknowledge .gitignore), which I think is what made it so that necessary packages do not install.
 So just download the following packages from the Unity registry to run:
 - AI Navigation
-- Visual Studio Editor
+- Visual Studio Editer 
 - Unit UI
 - TextMeshPro
 
-
+Features:
+The game is a short quest into a cave to find a mushroom. The game starts in the overworld section with the player
+able to walk around and be followed by their companion and a combat section, where the camera switches to a static
+view of the player characters facing the enemies. There are two enemy types, the basic rats that wander around and chase the 
+player and the fakeout mushroom which is more powerful and functions as a sort of boss enemy.
 
 Asset Credits:
 
