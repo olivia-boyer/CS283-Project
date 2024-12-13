@@ -5,6 +5,16 @@ Use WASD or the arrow keys to move around the overworld. You can also press spac
 is no reason to. When you encounter an enemy, combat begins. you can choose your actions by clicking the 
 buttons with your cursor. Walk into the red mushroom to collect in and complete the game.
 
+When you open the game in unity it's going to give you a bunch of compiler errors. Something in the github repo
+got messed up (my laptop refused to acknowledge .gitignore), which I think is what made it so that necessary packages do not install.
+So just download the following packages from the Unity registry to run:
+- AI Navigation
+- Visual Studio Editor
+- Unit UI
+- TextMeshPro
+
+
+
 Asset Credits:
 
 Low Poly Nature Essentials:
