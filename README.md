@@ -48,12 +48,14 @@ Full Playthrough video (on 1.5x speed)
 Screenshots of scene:
 
 Village
-
-Cave Entrance
-
+![](https://github.com/olivia-boyer/CS283-Project/blob/main/Vids%26pics/town.png)
+Cave Entrance:
+![](https://github.com/olivia-boyer/CS283-Project/blob/main/Vids%26pics/entrance.png)
 Cave birds eye view
-
+![](https://github.com/olivia-boyer/CS283-Project/blob/main/Vids%26pics/overview.png)
 battle area
+![](https://github.com/olivia-boyer/CS283-Project/blob/main/Vids%26pics/fightarea.png)
+
 
 Asset Credits:
 
