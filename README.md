@@ -1,6 +1,8 @@
 # CS283-Project
 
 ![](https://github.com/olivia-boyer/CS283-Project/blob/main/SplashImage.png)
+
+
 How To Play:
 Use WASD or the arrow keys to move around the overworld. You can also press space to jump though there
 is no reason to. When you encounter an enemy, combat begins. you can choose your actions by clicking the 
