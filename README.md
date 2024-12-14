@@ -39,6 +39,21 @@ to the exact values though.
 
 The game ends when the player walks into the fly agaric mushroom at the end of the cave, which causes it 
 to play a short animation and show an end screen using the AnimateMushroom script.
+
+
+Full Playthrough video (on 1.5x speed)
+
+
+Screenshots of scene:
+
+Village
+
+Cave Entrance
+
+Cave birds eye view
+
+battle area
+
 Asset Credits:
 
 Low Poly Nature Essentials:
