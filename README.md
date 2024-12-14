@@ -5,7 +5,7 @@ Use WASD or the arrow keys to move around the overworld. You can also press spac
 is no reason to. When you encounter an enemy, combat begins. you can choose your actions by clicking the 
 buttons with your cursor. Walk into the red mushroom to collect in and complete the game.
 
-When you open the game in unity it's going to give you a bunch of compiler errors. Something in the github repo
+When you open the game in unity it's probably going to give you a bunch of compiler errors. Something in the github repo
 got messed up (my laptop refused to acknowledge .gitignore), which I think is what made it so that necessary packages do not install.
 So just download the following packages from the Unity registry to run:
 - AI Navigation
@@ -13,12 +13,29 @@ So just download the following packages from the Unity registry to run:
 - Unit UI
 - TextMeshPro
 
+Also open the scene called "Project"
+
 Features:
 The game is a short quest into a cave to find a mushroom. The game starts in the overworld section with the player
 able to walk around and be followed by their companion and a combat section, where the camera switches to a static
-view of the player characters facing the enemies. There are two enemy types, the basic rats that wander around and chase the 
-player and the fakeout mushroom which is more powerful and functions as a sort of boss enemy.
+view of the player characters facing the enemies (the CombatInitiator script controls these transitions). In the overworld 
+sections I reused the PlayerMotionController and SpringFollowCamera scripts from pervious assignments.
 
+There are two enemy types, the basic rats that wander around and chase the 
+player and the fakeout mushroom which is more powerful and functions as a sort of boss enemy. The overworld behaviors
+on enemies are controlled by the EnemyBehavior script and for the combat portions.
+
+Both the player characters and enemies have stats and functions for taking/healing damage in a BattleUnit class.
+
+The flow of combat is controlled by the BattleSystem script. THe BattleHUD script updates hp values.
+
+Enemies just do basic attacks at random targets. The two player character each have a basic attack, defense that
+reduces damage taken, and then one other ability. One character can boost attack for one turn, and the other can heal.
+THe values for defense, attack buffs, and healing power are all just based on the attack stat. There is some randomness
+to the exact values though.
+
+The game ends when the player walks into the fly agaric mushroom at the end of the cave, which causes it 
+to play a short animation and show an end screen using the AnimateMushroom script.
 Asset Credits:
 
 Low Poly Nature Essentials:
